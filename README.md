@@ -1,29 +1,67 @@
+# Realtime Chat Application
 
-#Realtime Chat Application#
+## Features
+1. **Instant Messaging Between Users**
+   - Users can send and receive messages in real-time.
 
-Features
-Instant messaging between users
-User authentication and authorization
-Real-time notifications
+2. **User Authentication and Authorization**
+   - Secure user authentication to ensure that only authorized users can access the chat.
 
+3. **Real-time Notifications**
+   - Users receive instant notifications for new messages.
 
-⚙️ Tech Stack
-Frontend: React, Vite, Bootstrap
-Backend: Node.js, MongoDB, Socket.io
-️ Setting Up
+## ⚙️ Tech Stack
 
-1. Frontend:
+### Frontend
+- **React**
+- **Vite**
+- **Bootstrap**
 
-Clone the project repository.
-Install dependencies: npm install
-Run the development server: npm run dev
+### Backend
+- **Node.js**
+- **MongoDB**
+- **Socket.io**
 
-2. Backend:
+## Setting Up
 
-Install dependencies: npm install
-Configure MongoDB connection details in backend/config.js
-Start the server: npm run start
+### Frontend
+1. Clone the project repository:
+   ```bash
+   git clone https://github.com/krishanjit19/realtime-chat.git
+   ```
 
-3. Socket.io:
+2. Navigate to the frontend directory:
+   ```bash
+   cd chat-app/frontend
+   ```
 
-Ensure both frontend and backend servers and socket are running.
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+### Backend
+1. Navigate to the backend directory:
+   ```bash
+   cd chat-app/backend
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Configure MongoDB connection details:
+   - Open `backend/config.js` and provide your MongoDB connection details.
+
+4. Start the server:
+   ```bash
+   npm run start
+   ```
+
+**Happy Chatting!** 🚀
