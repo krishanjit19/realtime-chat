@@ -32,7 +32,7 @@
 
 2. Navigate to the frontend directory:
    ```bash
-   cd chat-app/frontend
+   cd chat-app/client
    ```
 
 3. Install dependencies:
@@ -48,7 +48,7 @@
 ### Backend
 1. Navigate to the backend directory:
    ```bash
-   cd chat-app/backend
+   cd chat-app/server
    ```
 
 2. Install dependencies:
@@ -61,7 +61,24 @@
 
 4. Start the server:
    ```bash
-   npm run start
+   nodemon
    ```
+
+### Socket.io
+1. Navigate to the socket directory:
+   ```bash
+   cd chat-app/socket
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+   
+3. Start the server:
+   ```bash
+   nodemon
+   ```
+
 
 **Happy Chatting!** 🚀
